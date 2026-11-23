@@ -24,4 +24,6 @@ class TestSum(unittest.TestCase):
 if __name__ == "__main__":
     unittest.main()
 
-#The test fails on line 22 because our result is the sum of fractions that #do not equal the integer 1. If we changed the data for the last fraction #to be 2 & 4, it would pass against our expected result of the integer 1. 
+#The test fails on line 22 because our result is the sum of fractions that
+#do not equal the integer 1. If we changed the data for the last fraction 
+#to be 2 & 4, it would pass against our expected result of the integer 1. 
